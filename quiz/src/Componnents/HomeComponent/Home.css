@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(67, 2, 152);
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.heading-home {
+    color: white;
+}
+
+.play-btn-home{
+    background-color: rgb(8, 207, 8);
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.play-btn-home:hover {
+    background-color: #b929a3;
+    color: yellow;
+}
